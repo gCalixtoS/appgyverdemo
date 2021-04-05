@@ -78,6 +78,7 @@ VIEW CheckInList as SELECT FROM CheckIn
     key ID : String,
     office.name as officeName,
     floor.name as floorName,
+    floor.ID as floorID,
     date,
     active,
     user.ID as user
